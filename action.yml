@@ -1,0 +1,22 @@
+name: 'Hugo Dependencies'
+description: 'Update and tidy Hugo Modules.'
+branding:
+  icon: 'refresh-cw'
+  color: 'green'
+inputs:
+  recursive:
+    description: 'Whether to update Hugo Modules recursively.'
+    default: 'true'
+  tidy:
+    description: 'Whether to tidy Hugo Modules after updating.'
+    default: 'true'
+  working-directory:
+    description: 'Working directory.'
+    default: ''
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.recursive }}
+    - ${{ inputs.tidy }}
+    - ${{ inputs.working-directory }}
