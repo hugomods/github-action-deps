@@ -1,0 +1,15 @@
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./
+        with:
+          recursive: 'true'
+          tidy: 'true'
+          working-directory: ./site
+
+      - run: git status
