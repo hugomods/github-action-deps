@@ -1,0 +1,28 @@
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./
+        id: hugo-deps
+        with:
+          recursive: 'true'
+          tidy: 'true'
+          working-directory: ./site
+
+      - run: echo ${{ steps.hugo-deps.outputs.raw }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            **/go.mod
+            **/go.sum
+          branch: hugo-deps/patch
+          title: |
+            chore(deps): update and tidy Hugo Modules
+          commit-message: |
+            chore(deps): update and tidy Hugo Modules

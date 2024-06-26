@@ -1,0 +1,8 @@
+github.com/hugomods/icons v0.6.4 h1:SeDMpN2kjc8mbuXfi8zED4IN5IGZmqJdmmUQr9tIpxw=
+github.com/hugomods/icons v0.6.4/go.mod h1:cIkSvK6W0q6N4U6n9KGz+QfRWQXAW0INd+1P31gPNGg=
+github.com/hugomods/search v0.1.0 h1:a1Mv17JY2zkd2gpTF9hdEXvKPJvMdWYqfT0RP4jdLLQ=
+github.com/hugomods/search v0.1.0/go.mod h1:CtE2vosGhBCUADzSEHYf2VPJbm3SQegtC/VYZSlDT7c=
+github.com/krisk/Fuse v7.0.0+incompatible h1:jVyg6No+Joc51Rn97QQYJZIpCxzd4ywACn/4+FKWjvo=
+github.com/krisk/Fuse v7.0.0+incompatible/go.mod h1:3moWv8rDjwoKic9nwiPLgZjldkbdTAbtzJHCu/Vsj4A=
+github.com/twbs/icons v1.11.3 h1:XhvrQ1XDom9ggBbQx3wQCFGEr8qAQwQP/dAcw8OXMtA=
+github.com/twbs/icons v1.11.3/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
