@@ -1,4 +1,10 @@
+github.com/hugomods/apache-echarts v5.5.1+incompatible h1:Sl5WNcNdmZcL8rlX3a2p4k1M6l7i4y0fv3FV+zGFxOI=
+github.com/hugomods/apache-echarts v5.5.1+incompatible/go.mod h1:RbEQGbCh0enpgPXOQK4E69LhmHsU91qsbOmMfwMYTEQ=
+github.com/hugomods/base v0.7.2 h1:SShNl7koN79CEUdGQ65Knbf/c2k+bE+El5ManYWd8Cg=
+github.com/hugomods/base v0.7.2/go.mod h1:hnWCPbVxuhXBwdFax3mmbMlWKmIo/7OP36MCLOyHtT4=
 github.com/hugomods/echarts v0.1.0 h1:ACxCHWi8DzJIZCCnKs9X+60vucrinDC/w2jmCFUc91w=
 github.com/hugomods/echarts v0.1.0/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
+github.com/hugomods/echarts v0.1.3 h1:DBHXaVcKE3R/UQKaItulhoVqkO439lGicb1foKs+AQs=
+github.com/hugomods/echarts v0.1.3/go.mod h1:RrUk6TpRJUsMtNA4w9IydbrhPCqdlbCkEV0QDTYsxHc=
 github.com/hugomods/images v0.1.0 h1:MwXzK6j7xMCQwlHhmKGg3ewT3+Roaan+TO5wteYKpFI=
 github.com/hugomods/images v0.1.0/go.mod h1:U6Gwj16LKvk66rOMyGFrnF6f0aV8lT89lqOsckOAjYY=
